@@ -11,7 +11,7 @@ public class Lion extends Animal {
         String details = String.format("Name: %s%n", GetName());
         details += String.format("Species: %s%n", GetSpecies());
         details += String.format("Age: %d%n", GetAge());
-        details += String.format("Mane Length: %f", maneLength);
+        details += String.format("Mane Length: %f cm", maneLength);
         return details;
     }
 }
