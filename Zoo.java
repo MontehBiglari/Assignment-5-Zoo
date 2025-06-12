@@ -1,16 +1,16 @@
-import java.util.ArrayList
-import java.util.List
+import java.util.ArrayList;
 
 public class Zoo {
   private ArrayList<Animal> Animals = new ArrayList<>();
 
-  public AddAnimal(Animal animal) {
+  public void AddAnimal(Animal animal) {
     Animals.add(animal);
   }
 
-  public DisplayAllAnimals {
+  public void DisplayAllAnimals() {
     for (Animal animal : Animals) {
       animal.GetDetails();
     }
   }
 }
+

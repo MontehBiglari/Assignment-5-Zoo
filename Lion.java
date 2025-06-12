@@ -7,7 +7,7 @@ public class Lion extends Animal {
     }
 
     @Override
-    public String getDetails() {
+    public String GetDetails() {
         String details = String.format("Name: %s%n", GetName());
         details += String.format("Species: %s%n", GetSpecies());
         details += String.format("Age: %d%n", GetAge());
