@@ -25,9 +25,6 @@ public class Animal {
       return age;
     }
 
-    public abstract String GetDetails() {
-      String details = String.format("Name: %s", this.name);
-        details += String.format("Species: %s", this.species);
-        details += String.format("Age: %d", this.age);
-    }
+    public abstract String GetDetails();
+}
     
