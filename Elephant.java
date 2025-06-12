@@ -11,7 +11,7 @@ public class Elephant extends Animal {
         String details = String.format("Name: %s%n", GetName());
         details += String.format("Species: %s%n", GetSpecies());
         details += String.format("Age: %d%n", GetAge());
-        details += String.format("Trunk Length: %f", trunkLength);
+        details += String.format("Trunk Length: %f m", trunkLength);
         return details;
     }
 }
